@@ -152,8 +152,8 @@ const Home = () => {
       <footer>
         <div className="footer-contact">
           <h3>Contact Us</h3>
-          <p>Email: contact@networko.one</p>
-          <p>Phone: +88 01511 123 007</p>
+          
+          <p>Phone: phone number</p>
         </div>
         <div className="footer-socials">
           <h3>Follow Us</h3>
