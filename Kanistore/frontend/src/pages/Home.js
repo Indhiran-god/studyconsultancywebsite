@@ -149,21 +149,7 @@ const Home = () => {
       </section>
 
       {/* Footer Section */}
-      <footer>
-        <div className="footer-contact">
-          <h3>Contact Us</h3>
-          
-          <p>Phone: phone number</p>
-        </div>
-        <div className="footer-socials">
-          <h3>Follow Us</h3>
-          <div className="social-icons">
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-      </footer>
+    
     </div>
   );
 };
