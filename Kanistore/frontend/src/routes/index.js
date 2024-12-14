@@ -4,14 +4,9 @@ import Home from '../pages/Home';
 import Login from '../pages/Login'; 
 import ForgotPassword from '../pages/ForgotPassword'; 
 import SignUP from '../pages/SignUP'; 
-import Attendance from '../pages/Attendence';
-import BookClub from '../pages/BookClub';
-import CommunicationClub from '../pages/CommunicationClub';
-import CodingClub from '../pages/CodingClub';
-import FineArtsClub from '../pages/FineArtsClub';
-import Imposition from '../pages/imposition';
+
 import Menu from '../pages/menu';
-import AllEvents from "../pages/AllEvents";
+
 
 const router = createBrowserRouter([
   {
@@ -33,34 +28,6 @@ const router = createBrowserRouter([
       {
         path: "sign-up", // Sign up path
         element: <SignUP />
-      },
-      {
-        path: "attendance", // Attendance path
-        element: <Attendance />
-      },
-      {
-        path: "events", // Events path
-        element: <AllEvents />
-      },
-      {
-        path: "book-club", // Book Club path
-        element: <BookClub />
-      },
-      {
-        path: "communication-club", // Communication Club path
-        element: <CommunicationClub />
-      },
-      {
-        path: "coding-club", // Coding Club path
-        element: <CodingClub />
-      },
-      {
-        path: "fine-arts-club", // Fine Arts Club path
-        element: <FineArtsClub />
-      },
-      {
-        path: "imposition", // Imposition path
-        element: <Imposition />
       },
       {
         path: "menu", // Assignment path
